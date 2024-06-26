@@ -1,0 +1,11 @@
+# example : find big number between 2 numbers
+
+mno = float(input("Enter number 1 for compair : "))
+mno1 = float(input("Enter number 2 for compair : "))
+
+if(mno==mno1):
+    print(mno," and ",mno1," is equal")
+elif(mno>mno1):
+    print(mno," is greter than ",mno1)
+else :
+    print(mno1," is greater than ",mno)
