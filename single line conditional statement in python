@@ -1,0 +1,5 @@
+# single line conditional statment 
+
+food = input("Food = ")
+eat = "yes" if food == "cake" else "no"
+print(eat)
