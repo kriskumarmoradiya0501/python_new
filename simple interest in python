@@ -1,0 +1,9 @@
+# Example 1 : simple intrest
+
+p = float(input("Enter P = "))
+r = float(input("Enter R = "))
+n = float(input("Enter N = "))
+
+interest = (p*r*n)/100
+
+print("Interest = ",interest)
