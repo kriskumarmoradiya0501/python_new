@@ -1,0 +1,8 @@
+# example : find avarage number of two numbers .
+
+no1 = float(input("Enter number 1 for avarage : "))
+no2 = float(input("Enter number 2 for avarage : "))
+
+avarage = (no1+no2)/2
+
+print("Average of ",no1," and ",no2," is ",avarage)
