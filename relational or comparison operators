@@ -1,0 +1,11 @@
+#relational / comparison operators
+
+n3 = 20.45
+n4 = 24.23
+print("n3 = ",n3,"n4 = ",n4)
+print(n3," > ",n4," ",(n3>n4))
+print(n3," >= ",n4," ",(n3>=n4))
+print(n3," < ",n4," ",(n3<n4))
+print(n3," <= ",n4," ",(n3<=n4))
+print(n3," == ",n4," ",(n3==n4))
+print(n3," != ",n4," ",(n3!=n4))
