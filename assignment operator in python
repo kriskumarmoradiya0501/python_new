@@ -1,0 +1,9 @@
+# assignment operator
+
+n5=56
+n6=55
+
+# print(n5," *= ",n6," ",(n5*=n6))
+# print(n3," += ",n4," ",(n3+=n4))
+# print(n3," -= ",n4," ",(n3-=n4))
+# print(n3," /= ",n4," ",(n3/=n4))
