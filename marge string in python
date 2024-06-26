@@ -1,0 +1,5 @@
+# if you want to marge the string you can simply put + in between them and it will easily marge.
+
+name1 = "Krishkumar "
+name2 = "Moradiya"
+print(name1+name2)
