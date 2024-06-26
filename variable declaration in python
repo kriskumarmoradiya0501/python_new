@@ -1,0 +1,7 @@
+name = "Kriskumar"
+age = 25
+price = 25.5
+
+print("name = ",name)
+print("age = ",age)
+print("price = ",price)
