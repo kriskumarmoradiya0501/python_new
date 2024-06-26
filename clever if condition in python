@@ -1,0 +1,5 @@
+# clever if condition
+
+sal = float(input("Enter your salary : "))
+tax= sal*(0.2,0.3) [sal>5000]
+print("your tax : ",tax)
