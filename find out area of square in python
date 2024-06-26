@@ -1,0 +1,5 @@
+# example : find out area of squar
+
+l = float(input("Enter length of squar = "))
+areasqr = l*l
+print("area of square = ",areasqr)
