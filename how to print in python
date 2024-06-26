@@ -1,0 +1,4 @@
+print("hello")
+print("My name is krishkumar")
+print("My age is 19")
+print(35+35)
