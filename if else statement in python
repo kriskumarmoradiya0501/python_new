@@ -1,0 +1,11 @@
+# conditional statment
+
+age2=int(input("Enter your age : "))
+
+if(age2>=19):
+    print("Your age is greater than 18 so you van vote")
+
+elif(age==18):
+    print("if you have votter id than you can vote")
+else:
+    print("You are under 18 so you can note vote")
