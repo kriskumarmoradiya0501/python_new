@@ -1,0 +1,24 @@
+# input in python
+
+name1 = input("name : ")
+print(name1)
+
+age1 = int(input("Enter your age : "))
+print("Your age is ",age1)
+
+price1= float(input("Enter price : "))
+print("Price = ",price1)
+
+print("Your name is ",name,".Your ager is ",age1,"cake price is ",price1)
+
+
+name1 = input("name : ")
+print(name1)
+
+age1 = int(input("Enter your age : "))
+print("Your age is ",age1)
+
+price1= float(input("Enter price : "))
+print("Price = ",price1)
+
+print("Your name is ",name,".Your ager is ",age1,"cake price is ",price1)
