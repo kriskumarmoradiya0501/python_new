@@ -1,0 +1,7 @@
+# it is case sensative language
+# it is implcite datatype language.
+a=4
+A=1
+print("a = ",a)
+print("A = ",A)
+
