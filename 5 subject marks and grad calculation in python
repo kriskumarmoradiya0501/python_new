@@ -1,0 +1,15 @@
+sub1 = float(input("Enter marks of sub 1: "))
+sub2 = float(input("Enter marks of sub 2: "))
+sub3 = float(input("Enter marks of sub 3: "))
+sub4 = float(input("Enter marks of sub 4: "))
+sub5 = float(input("Enter marks of sub 5: "))
+total = sub1 + sub2 + sub3 + sub4 + sub5
+pr = total / 5
+if pr >= 90:
+    print("Your grade is A")
+elif pr >= 80 and pr < 90:
+    print("Your grade is B")
+elif pr >= 70 and pr < 80:
+    print("Your grade is C")
+else:
+    print("Your grade is D")
