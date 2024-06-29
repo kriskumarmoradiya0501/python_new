@@ -1,0 +1,34 @@
+# declaration and initializing the string
+str1 = "krishkumar"
+str2 = " Moradiya"
+
+# You can add the sting with help of + sign
+f_str=str1+str2
+
+# you can major the string length using len function
+print("length of f_str is ",len(f_str))
+
+# print the string.
+print(f_str)
+
+# slicing
+# str[starting_index : ending_index] ending index is not included
+# f_str[1:4] is "ris" for now situation or condition
+# f_str[ : 4] is same as str [0 : 4]
+# f_Str[1 : ] is same as str[1 : len(f_str)]
+print(f_str[1:4])
+print(f_str[5 : ])
+print(f_str[ : 6])
+# we can also give negative index to the string too in python
+print(f_str[-9 : -5])
+
+# f_str.endswith("ya") returns true if string ends with substr.
+print(f_str.endswith("ya"))
+# f_str.capitalize() capitalizes first char
+print(f_str.capitalize())
+# f_str.replace(old,new) replaces all occurrences of old to new
+print(f_str.replace("krishkumar","Krish"))
+# f_str.find(word) returns 1st index of that word is being
+print(f_str.find("radiya"))
+# f_str.count("a") counts the substr reapt in string.
+print(f_str.count("a"))
