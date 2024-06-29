@@ -1,0 +1,12 @@
+
+# Q1 wap to input user's first name & print its length
+
+name = input("Enter Your name : ")
+print("Length of your name is ",len(name))
+
+# Q2 wap to find the occurrence of '$' in string.
+
+str = "shfb$kjnsd$jfnksd$bsf$fb$"
+print("Number of $ sign used in string is ",str.count("$"))
+
+
