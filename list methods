@@ -1,0 +1,22 @@
+list = [2,5,6,8,9,5,10]
+
+# for adding value in the end of list
+list.append(4)
+print(list)
+
+# for sorting out the list of array
+list.sort()
+print(list)
+
+# for descending order sorting 
+list.sort(reverse=True)
+print(list)
+
+# for reverse the list
+list.reverse()
+print(list)
+
+# list.insert() for place value on the prefered index
+list.insert(3,6)
+print(list)
+
