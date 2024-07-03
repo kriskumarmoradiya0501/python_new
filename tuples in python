@@ -1,0 +1,21 @@
+# tuples are immutable sequances 
+
+tup = (78,95,52,46,461,4686)
+
+# tup[0] = 43 is not allowed in python
+
+tup1 = ()
+tup2 = (1,)
+tup3 = (1,2,3)
+
+print(type(tup))
+
+print(tup)
+print(tup1)
+print(tup2)
+print(tup3)
+
+print(tup[3])
+print(tup[ : 5])
+print(tup[0:])
+print(tup[2:4])
