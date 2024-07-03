@@ -1,0 +1,8 @@
+num1 = int(input("Enter number which you want to check odd or even : "))
+
+rem = num1%2
+
+if(rem==0):
+    print(num1," is even number")
+else:
+    print(num1," is odd number")
