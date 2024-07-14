@@ -1,0 +1,12 @@
+# take values form user for list or tuple and set
+
+movie = []
+movie.append(input("enter 1st movie : "))
+movie.append(input("enter 2st movie : "))
+movie.append(input("enter 3st movie : "))
+movie.append(input("enter 4st movie : "))
+movie.append(input("enter 5st movie : "))
+
+print(movie)
+print(type(movie))
+
