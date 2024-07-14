@@ -1,0 +1,7 @@
+personal_info={
+    "Name" : "Kriskumar Hiteshbhai Moradiya",
+    "Age" : 18,
+    "BOD" : "05/10/2004"
+}
+
+print(personal_info)
