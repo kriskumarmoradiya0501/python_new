@@ -1,0 +1,8 @@
+
+# store tuple value in list & sort it a to d
+
+grade = ("a","b","a","a","c","c","c","d","a","a")
+lis = list(grade)
+print(lis)
+lis.sort()
+print(lis)
