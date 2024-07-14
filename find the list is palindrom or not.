@@ -1,0 +1,11 @@
+# find the list is palindrom or not.
+
+lis = [1,2,3,4,5,6,7,8,7,6,5,4,3,2,1]
+lis1 = lis.copy()
+
+lis1.reverse()
+
+if(lis1 == lis):
+    print("its palindrom")
+else:
+    print("it's not palindrom")
