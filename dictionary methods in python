@@ -1,0 +1,44 @@
+personal_info={
+    "Name" : "Kriskumar Hiteshbhai Moradiya",
+    "Age" : 18,
+    "BOD" : "05/10/2004"
+}
+
+print(personal_info)
+
+print(personal_info["BOD"])
+
+# nested dictionary
+
+info={
+    "Fullname" : "Krish",
+    "subject" : {
+        "guj":50,
+        "hindi":56,
+        "eng" : 65
+    },
+    "roll" : 65
+}
+
+print(info)
+print(info["Fullname"])
+print(info["subject"]["guj"])
+
+# it is use for list the all the key of dictionary
+print(personal_info.keys())
+
+# it is use for list the all values from dictionary
+print(personal_info.values())
+
+# it divide the each key and it's value as seperate parts
+print(info.items())
+
+# it is use for get the value of key 
+print(personal_info.get("Name"))
+
+# it is use for update the dictionary
+personal_info.update({"Name1":"Kriskumar"})
+
+#  you can add the new key and value or you can change the value of exisiting key.
+personal_info.update({"Name":"Kriskumar1"})
+print(personal_info)
