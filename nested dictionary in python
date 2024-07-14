@@ -1,0 +1,16 @@
+
+# nested dictionary
+
+info={
+    "Fullname" : "Krish",
+    "subject" : {
+        "guj":50,
+        "hindi":56,
+        "eng" : 65
+    },
+    "roll" : 65
+}
+
+print(info)
+print(info["Fullname"])
+print(info["subject"]["guj"])
