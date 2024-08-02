@@ -1,0 +1,51 @@
+'''
+Store following word meanings in a python dictionary:
+table : "a piece of furniture","list of facts & figures"
+cat : "a small animal"
+'''
+dict = {
+    "cat" : "a Small animal",
+    "table" : ["a piece of furniture","list of facts & figures"]
+}
+print(dict)
+
+'''
+you are given a list of subjects for students. 
+assume one classroom is required for 1 subject. 
+how many classwoom are needed by all students
+
+python,java,c++,python,javascript,java,python,java,c++,c
+'''
+
+set = {"python","java","c++","python","javascript","java","python","java","c++","c"}
+print("Total class room will need for this is ",len(set))
+
+'''
+Write a program to enter marks of 3 subjevct from the user and store them in a dictionary.start with an empty dictionary & 
+add one by one. use subject name as key & marks as value.
+'''
+
+marks = {}
+
+x = int(input("Enter marks of gujarati : "))
+marks.update({"Gujarati" : x})
+y = int(input("Enter Marks of Maths : "))
+marks.update({"Maths : ": y})
+z = int(input("Enter Marks of Hindi : "))
+marks.update({"Hindi : ": z})
+
+print(marks)
+
+'''
+Fingure out a way to store 9 & 9.0 as seprate values in the set (you can take help of built-in data types)
+'''
+val1 = {9,9.0}
+print(val1)
+val = {9,"9.0"}
+print(val)
+
+val2 = {
+    ("int",9),
+    ("float",9.0)
+}
+print(val2)
