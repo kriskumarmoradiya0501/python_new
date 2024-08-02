@@ -1,0 +1,40 @@
+# set is the collection of the unordered items. each elemet
+# in the set's values must be unique & immutable.
+
+nums={1,2,3,4,"hello","hello"}
+print(nums)
+print(type(nums))
+
+# it ignores the duplicate values
+
+col = set () # it is the way of declatring empty set.
+
+# we can store boolean,int,float,str,tuple in set
+# we can't store list directory in set
+
+nums.add("krish")
+print(nums)
+# add is use to add value in set 
+
+
+nums.remove(2)
+print(nums)
+#remove is use to remove value from set
+
+nums.clear()
+print(nums)
+#clear basically empty our set
+
+nums = {1,1.2,True,"krish"}
+print(nums)
+
+print(nums.pop())
+#pop returns us rendome value of set.
+
+set1 = {1,2,3}
+set2 = {1,2,4,5}
+print(set1.union(set2))
+#union combine both set and give one set but it remove duplication from the sets.
+
+print(set1.intersection(set2))
+#instersection is give the commen values only from both sets
