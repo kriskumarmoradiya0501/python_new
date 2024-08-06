@@ -1,0 +1,9 @@
+
+'''
+Print The multiplication table of a number n.
+'''
+n = int(input("Enter number for which you want to print table : "))
+k = 1
+while k<=10:
+    print(n," * ",k," = ",n*k)
+    k+=1
