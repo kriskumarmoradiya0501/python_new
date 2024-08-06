@@ -1,0 +1,53 @@
+'''
+Print numbers from 1 to 100
+'''
+i = 0
+while i<=100:
+    print(i,end=" ")
+    i+=1
+
+'''
+Print number from 100 to 1
+'''
+while i>=0:
+    print(i,end=" ")
+    i=i-1
+
+'''
+Print The multiplication table of a number n.
+'''
+n = int(input("Enter number for which you want to print table : "))
+k = 1
+while k<=10:
+    print(n," * ",k," = ",n*k)
+    k+=1
+ 
+'''
+
+print the folloring list using loop
+ [1,4,9,16,25,36,49,64,81,100]
+
+'''
+list =  [1,4,9,16,25,36,49,64,81,100]
+i=len(list)
+n=0
+while n < i:
+    print(list[n])
+    n+=1
+
+'''
+
+Search for a number x in this tuple using loop:
+ [1,4,9,16,25,36,49,64,81,100]
+
+'''
+list1 =  [1,4,9,16,25,36,49,64,81,100]
+
+i1=len(list)
+n=0
+x = int(input("Enter number which you want to find : "))
+while n<i:
+    if(list1[n]==x):
+        print(x," is found on ",n,"th index")
+        break
+    n+=1
