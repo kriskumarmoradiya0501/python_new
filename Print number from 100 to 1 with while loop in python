@@ -1,0 +1,6 @@
+'''
+Print number from 100 to 1
+'''
+while i>=0:
+    print(i,end=" ")
+    i=i-1
