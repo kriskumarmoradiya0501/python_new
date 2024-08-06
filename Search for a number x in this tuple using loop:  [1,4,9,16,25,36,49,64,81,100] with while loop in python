@@ -1,0 +1,16 @@
+'''
+
+Search for a number x in this tuple using loop:
+ [1,4,9,16,25,36,49,64,81,100]
+
+'''
+list1 =  [1,4,9,16,25,36,49,64,81,100]
+
+i1=len(list)
+n=0
+x = int(input("Enter number which you want to find : "))
+while n<i:
+    if(list1[n]==x):
+        print(x," is found on ",n,"th index")
+        break
+    n+=1
