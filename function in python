@@ -1,0 +1,15 @@
+'''
+Function in Python
+Block of statements that perform a specific task.
+
+def function_name (parameters):
+    #some work
+    return value
+
+function_name(parameters)
+'''
+def sum(a,b):
+    s = a+b
+    return s
+
+print(sum(2,6))
