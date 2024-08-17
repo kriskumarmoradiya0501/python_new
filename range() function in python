@@ -1,0 +1,21 @@
+# here parameter is giving last value of index so it print 0 to 5
+for el in range(5):
+    print(el)
+    
+print()
+'''
+here two parameters are there first is where to start and
+second is where to stop
+'''
+for el in range(1,5):
+    print(el)
+
+print()
+'''
+here three parameteres are given first for where to start
+second where to end
+thard what steps showld bw skip like here 2 so it returns 1 than 2 will skip and 
+gives us 3 and than 4 will skip
+'''
+for el in range(1,5,2):
+    print(el)
