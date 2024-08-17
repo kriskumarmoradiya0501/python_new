@@ -1,0 +1,19 @@
+'''
+Search for a number x in this tuple using loop:
+[1,4,9,16,25,36,49,64,81,100]
+'''
+
+tpl = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+n = int(input("Enter element to search in tuple"))
+
+found = False
+for element in tpl:
+    if element == n:
+        found = True
+        break
+
+if found:
+    print(n," is found in the tuple.")
+else:
+    print(n," is not found in the tuple.")
